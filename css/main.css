@@ -1,3 +1,69 @@
 body {
 	font-family: 'Cuprum', sans-serif;
 }
+
+h1 {
+  font-size: 65px
+}
+
+h1 .line2 {
+  display: block;
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 46px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0099CC;
+}
+
+a:visited {
+  color: #33B5E5;
+}
+
+.contact_me_body a {
+  display: block;
+  line-height: 26px;
+}
+
+#filters_container {
+  clear: both;
+  background: #CCC;
+  margin: 20px 0 10px 0;
+}
+
+article {
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+  article .wrapper {
+    border: 2px solid;
+    padding: 5px 0;
+  }
+
+  article img, article h5, article span {
+    margin: 0 5px 5px;
+  }
+
+  article img {
+    height: 256px;
+  }
+
+  article span {
+    display: none;
+  }
+
+[open="true"] span {
+  display: block;
+}

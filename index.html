@@ -9,60 +9,87 @@
     <link rel='stylesheet' href='css/main.css'>
   </head>
   <body>
-    <div class="container_12">
-      <div class="grid_12" class="header">
-        <img src="pics/logo.png" id="logo" />
-	<h1><span class="row1">256Design</span>
-	<span class="row2">Portfolio For</span>
-	<span class="row3">Spencer Oberstadt</span></h1>
-    </div>
-    <div class="grid_4">
-      <h2>Blog</h2>
-      <p>I write some things sometimes. There aren't a lot of things that I 
-        find out myself, but I want to put those few things out there. I 
-        encourage you to check it out, maybe bookmark some of the posts if 
-        they are something you work with.</p>
-      <a href="blog.256design.com">> 256 Blog</a>
-
-    </div>
-    <div class="grid_4">
-      <p>Programming isn't just a job, it's a mindset. I am passionate 
-        about finding different ways to look at a system or process. The 
-        trendy technology and tools are important, and exciting, but you 
-        don't always use your brand new stud finder to fix the kitchen sink. 
-        Anyone can make a new Facebook or blog site, but what gets me coming 
-        back to a project is if it actually helps real people.</p>
-    </div>
-    <div class="grid_4">
-      <h2>Contact Me</h2>
-      <p class="contact_me_body">
-        <a href="resume.pdf">My Resume</a>
-        <a href="#" class="email_me">Email Me</a>
-        <a href="http://twitter.com/spencersshutter">@spencersshutter</a>
-	<a href="http://github.com/soberstadt">github.com/soberstadt</a>
-      </p>
-    </div>
-
-    <div class="container_12" id="filters_container">
-      <h3 class="grid_12">Filters</h3>
-      
-      <div class="grid_3">
-      	<h4>Coolness</h4>
-	<input type="slider" />
-        <span id="coolness_slider_value">Any</a>
+    <div class="container_12" id="main_body">
+      <div class="container_12" class="header">
+        <img src="pics/logo.png" id="logo" class="grid_3" />
+        <h1 class="grid_9"><span class="line1">256Design</span>
+        <span class="line2">Portfolio For</span>
+        <span class="line3">Spencer Oberstadt</span></h1>
       </div>
-      <div class="grid_3">
-        <h4>Type</h4>
-      </div>
-    </div>
 
-    <article class="grid_4" type="development" coolness="9">
-      <img src="pics/port/mpdx.jpg">
-      <h5>MPDX - Mobile</h5>
-      <span class="date">June 2012 - Current</span>
-      <span class="coolness">Coolness: 9</span>
-      <span class="main_tech">Main Technology: HTML/CSS/JS</span>
-      <span class="more_link">Click Again To See More</span>
-    </article>
+      <div class="container_12">
+        <div class="grid_4">
+          <h2>Blog</h2>
+          <p>I write some things sometimes. There aren't a lot of things that I 
+            find out myself, but I want to put those few things out there. I 
+            encourage you to check it out, maybe bookmark some of the posts if 
+            they are something you work with.</p>
+          <p><a href="http://blog.256design.com">> 256 Blog</a><p>
+        </div>
+        <div class="grid_4">
+          <p>Programming isn't just a job, it's a mindset. I am passionate 
+            about finding different ways to look at a system or process. The 
+            trendy technology and tools are important, and exciting, but you 
+            don't always use your brand new stud finder to fix the kitchen sink. 
+            Anyone can make a new Facebook or blog site, but what gets me coming 
+            back to a project is if it actually helps real people.</p>
+        </div>
+        <div class="grid_4">
+          <h2>Contact Me</h2>
+          <p class="contact_me_body">
+            <a href="resume.pdf">My Resume</a>
+            <a href="#" class="email_me">Email Me</a>
+            <a href="http://twitter.com/spencersshutter">@spencersshutter</a>
+            <a href="http://github.com/soberstadt">github.com/soberstadt</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="container_12" id="filters_container">
+        <h3 class="grid_12">Filters</h3>
+        
+        <div class="grid_3">
+          <h4>Coolness</h4>
+          <input type="slider" />
+          <span id="coolness_slider_value">Any</span>
+        </div>
+        <div class="grid_3">
+          <h4>Type</h4>
+        </div>
+      </div>
+
+      <article class="grid_4" type="development" coolness="9" open="true">
+        <div class="wrapper">
+          <img src="pics/port/mpdx.jpg">
+          <h5>MPDX - Mobile</h5>
+          <span class="date">June 2012 - Current</span>
+          <span class="coolness">Coolness: 9</span>
+          <span class="main_tech">Main Technology: HTML/CSS/JS</span>
+          <span class="more_link">Click Again To See More</span>
+        </div>
+      </article>
+
+      <article class="grid_4" type="development" coolness="9">
+        <div class="wrapper">
+          <img src="pics/port/mpdx.jpg">
+          <h5>MPDX - Mobile</h5>
+          <span class="date">June 2012 - Current</span>
+          <span class="coolness">Coolness: 9</span>
+          <span class="main_tech">Main Technology: HTML/CSS/JS</span>
+          <span class="more_link">Click Again To See More</span>
+        </div>
+      </article>
+
+      <article class="grid_4" type="development" coolness="9">
+        <div class="wrapper">
+          <img src="pics/port/mpdx.jpg">
+          <h5>MPDX - Mobile</h5>
+          <span class="date">June 2012 - Current</span>
+          <span class="coolness">Coolness: 9</span>
+          <span class="main_tech">Main Technology: HTML/CSS/JS</span>
+          <span class="more_link">Click Again To See More</span>
+        </div>
+      </article>
+    </div>
   </body>
 </html>
