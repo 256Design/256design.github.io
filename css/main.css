@@ -2,17 +2,26 @@ body {
 	font-family: 'Cuprum', sans-serif;
 }
 
+#main_body {
+  padding-top: 40px;
+}
+
 h1 {
-  font-size: 65px
+  font-size: 80px;
+  line-height: 60px;
 }
 
 h1 .line2 {
   display: block;
-  font-size: 42px;
+  font-size: 45px;
+  color: #0099CB;
 }
 
 h2 {
   font-size: 46px;
+  color: #555;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 
 h5 {
@@ -21,6 +30,8 @@ h5 {
 
 p {
   margin-bottom: 10px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -31,16 +42,36 @@ a:visited {
   color: #33B5E5;
 }
 
+.clear_hr {
+  clear: both;
+}
+
 .contact_me_body a {
   display: block;
-  line-height: 26px;
+  line-height: 32px;
+  font-size: 18px;
 }
 
 #filters_container {
   clear: both;
   background: #CCC;
-  margin: 20px 0 10px 0;
+  margin: 20px 0;
+  padding: 10px 0;
 }
+
+  #filters_container h3 {
+    font-size: 20px;
+  }
+
+  #coolness_filter_input {
+    display: block;
+    width: 100%;
+  }
+
+  #filters_container .value {
+    display: block;
+    text-align: center;
+  }
 
 article {
   height: 300px;
@@ -48,8 +79,15 @@ article {
 }
 
   article .wrapper {
+    background: #FFF;
     border: 2px solid;
     padding: 5px 0;
+  }
+
+  [open] .wrapper {
+    background: #DDD;
+    position: absolute;
+    width: 296px;
   }
 
   article img, article h5, article span {
@@ -64,6 +102,14 @@ article {
     display: none;
   }
 
-[open="true"] span {
-  display: block;
+  [open] span {
+    display: block;
+  }
+
+  article .more_link {
+    text-align: right;
+  }
+
+footer {
+  padding: 20px 0 40px 0;
 }
