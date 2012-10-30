@@ -1,11 +1,22 @@
-$('article').click(function () {
-  if($(this).attr('open')) {
-  	// open big version
-  }
-  else {
+window.filters = {}
+
+$('article').click(function (event) {
+  if(!$(this).attr('open')) {
+    event.stopPropagation()
     $('article').removeAttr('open')
     $(this).attr('open','')
   }
+})
+
+$(document).ready(function(){
+  $(".fancybox").fancybox({
+      width: 500
+  })
+
+  $('input[type="checkbox"]').change(function (event) {
+    window.filters[$(this).attr("value")] = $(this).attr("checked") == "checked"
+    refilter()
+  })
 })
 
 function coolness_slider_change (event) {
@@ -23,7 +34,8 @@ function coolness_slider_change (event) {
 
 function refilter () {
   $('article').each(function () {
-  	if(parseInt($(this).attr('coolness')) < window.coolness_value)
+  	if(parseInt($(this).attr('coolness')) < window.coolness_value ||
+      filters[$(this).attr('type')] === false)
       $(this).hide()
     else
       $(this).show()

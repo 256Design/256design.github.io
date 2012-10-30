@@ -7,6 +7,7 @@
     <link rel='stylesheet' href='css/reset.css'>
     <link rel='stylesheet' href='css/960.css'>
     <link rel='stylesheet' href='css/main.css'>
+    <link rel='stylesheet' href='lib/fancybox/jquery.fancybox.css'>
   </head>
   <body>
     <div class="container_12" id="main_body">
@@ -58,50 +59,54 @@
         </div>
         <div class="grid_3">
           <h4>Type</h4>
+          <input id="developement_filter_cb" type="checkbox" value="development" checked />
+          <label for="developement_filter_cb">Development</label> 
+          <input id="design_filter_cb" type="checkbox" value="design" checked />
+          <label for="design_filter_cb">Design</label> 
         </div>
       </div>
 
-      <article class="grid_4" type="development" coolness="10" open="true">
-        <div class="wrapper">
+      <article class="grid_4" type="development" coolness="10" open="true" id="p1">
+        <a href="#p1large" class="fancybox wrapper">
           <img src="pics/port/mpdx-mobile-small.jpg">
           <h5>MPDX - Mobile</h5>
           <span class="date">June 2012 - Current</span>
           <span class="coolness">Coolness: 10</span>
           <span class="main_tech">Main Technology: HTML/CSS/JS</span>
           <span class="more_link">Click Again To See More</span>
-        </div>
+        </a>
       </article>
 
       <article class="grid_4" type="development" coolness="9">
-        <div class="wrapper">
+        <a href="#p2large" class="fancybox wrapper">
           <img src="pics/port/pt-small.jpg">
           <h5>Project Tansparency</h5>
           <span class="date">September 2011 - March 2012</span>
           <span class="coolness">Coolness: 9</span>
           <span class="main_tech">Main Technology: Java for Android</span>
           <span class="more_link">Click Again To See More</span>
-        </div>
+        </a>
       </article>
 
       <article class="grid_4" type="design" coolness="5">
-        <div class="wrapper">
+        <a href="#p2large" class="fancybox wrapper">
           <img src="pics/port/ar-small.jpg">
           <h5>Mobile Enviornment Detection</h5>
           <span class="date">November 2011</span>
           <span class="coolness">Coolness: 5</span>
           <span class="more_link">Click Again To See More</span>
-        </div>
+        </a>
       </article>
 
       <article class="grid_4" type="development" coolness="6">
-        <div class="wrapper">
+        <a href="#p2large" class="fancybox wrapper">
           <img src="pics/port/autism-small.jpg">
           <h5>Data Entry App for Autism Therapy</h5>
           <span class="date">July 2011 - November 2011</span>
           <span class="coolness">Coolness: 6</span>
           <span class="main_tech">Main Technology: Adobe Flex</span>
           <span class="more_link">Click Again To See More</span>
-        </div>
+        </a>
       </article>
       <hr class="clear_hr">
       <footer class="grid_12">
@@ -109,7 +114,70 @@
       </footer>
     </div>
 
+    <div style="display:none" id="p1large" class="project_large">
+      <h2>MPDX - Mobile</h2>
+      <h3 class="sub-title">Ministy Partner Development Connexion</h3>
+      <img src="pics/port/mpdx_large.jpg" />
+      <p>In June 2012, I traveled to Orlando, FL and worked with a team on to
+        build a mobile access portal for MPDX.org. MPDX is being designed as the
+        new web application solution for missionaries who raise their own 
+        financial support. My role was leading the mobile apps team where I 
+        worked with another member to train him in javascript development and 
+        project management. We built the apps using Phonegap and are currently 
+        targetting Android and iOS devices with offline applications and is 
+        accessable via the web. We chose PhoneGap because we wanted be able to 
+        have a fast start-up time and target every and any smart phone.</p>
+      <p>During the first week of the project, we worked to explore dynamic view
+        (HTML page) creation techniques and other tools we would need to develop
+        for a PhoneGap application. To help streamline development and expansion, 
+        after about a week of developement, we looked into Javascript MVC 
+        (<a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">more info</a>) 
+        frameworks and descided on using Backbone.js. After getting the hang of 
+        Backbone.js, we were cooking with gas and had a published app on the Play
+        Store after about 2.5 months, with the last month me working solo.</p>
+      <p>The app is currently available on the 
+        <a href="https://play.google.com/store/apps/details?id=org.mpdx" target="_blank">Android Play Store</a>, 
+        and will be on the Apple App Store soon!</p>
+      <div class="container_12 more_info">
+        <div class="tags grid_3">
+          <h4>Tags</h4>
+          <ul>
+            <li>PhoneGap</li>
+            <li>HTML5/CSS3</li>
+            <li>jQuery, jQuery Mobile, and a whole bunch of other stuff for fun!!!</li>
+            <li>Backbone</li>
+            <li>Git</li>
+            <li>JSON</li>
+          </ul>
+        </div>
+        <div class="links grid_3">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="http://mpdx.org" target="_blank">MPDX.org</a></li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h4>Client</h4>
+          <p>Cru (formally Campus Crusade for Christ)
+        </div>
+        <div class="grid_3">
+          <h4>Time Frame</h4>
+          <p>June 2012 - Present</p>
+        </div>
+        <div class="grid_3">
+          <h4>Coolness</h4>
+          <p>10</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:none" id="p2large" class="project_large">
+      <h2>MPDX - Mobile</h2>
+      <a href="http://fancybox.net/blog">Example Light box</a>  
+    </div>
+
     <script type="text/javascript" src="lib/jQuery.js"></script>
+    <script type="text/javascript" src="lib/fancybox/jquery.fancybox.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

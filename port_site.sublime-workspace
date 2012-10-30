@@ -1,0 +1,878 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cool",
+				"coolness_slider_value"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"padd",
+				"padding-top	zen:css_properties"
+			],
+			[
+				"tasks",
+				"tasksPage"
+			],
+			[
+				"curre",
+				"currentFilterIndex"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"task",
+				"taskId"
+			],
+			[
+				"contacts",
+				"contactsListPage"
+			],
+			[
+				"con",
+				"context"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"conta",
+				"contactCats"
+			],
+			[
+				"ele",
+				"element"
+			],
+			[
+				"elem",
+				"element_letter"
+			],
+			[
+				"e",
+				"element"
+			],
+			[
+				"contact",
+				"contactCats"
+			],
+			[
+				"pl",
+				"plugin"
+			],
+			[
+				"act",
+				"actStartTracking"
+			],
+			[
+				"dia",
+				"dialogOpen"
+			],
+			[
+				"call",
+				"callbackOpen"
+			],
+			[
+				"first",
+				"firstSync"
+			],
+			[
+				"cont",
+				"contactsList"
+			],
+			[
+				"fin",
+				"findAll"
+			],
+			[
+				"find",
+				"findSome"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"get",
+				"getSyncMethod"
+			],
+			[
+				"sy",
+				"getSyncMethod"
+			],
+			[
+				"hi",
+				"hideSyncMessage"
+			],
+			[
+				"err",
+				"error"
+			],
+			[
+				"page",
+				"pageShow"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"Con",
+				"ContactListView"
+			],
+			[
+				"dev",
+				"device"
+			],
+			[
+				"set",
+				"setCustomVar"
+			],
+			[
+				"an",
+				"analytics"
+			],
+			[
+				"co",
+				"config"
+			],
+			[
+				"contac",
+				"contacts"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"qu",
+				"quitApp"
+			],
+			[
+				"cur",
+				"currentFilterIndex"
+			],
+			[
+				"filter",
+				"filterIndex"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"ui-i",
+				"ui-input-text"
+			],
+			[
+				"ui-s",
+				"ui-simpledialog-container"
+			],
+			[
+				"syn",
+				"sync"
+			],
+			[
+				"log",
+				"log_task"
+			],
+			[
+				"deve",
+				"deviceSupp"
+			],
+			[
+				"to",
+				"toJSON"
+			],
+			[
+				"sync",
+				"syncRefresh"
+			],
+			[
+				"devi",
+				"device"
+			],
+			[
+				"fi",
+				"firstPage"
+			],
+			[
+				"start",
+				"startApp"
+			],
+			[
+				"add",
+				"addSyncFunctions"
+			],
+			[
+				"load",
+				"loadTemplates"
+			],
+			[
+				"conc",
+				"contacts"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"Child",
+				"ChildBrowser"
+			],
+			[
+				"p",
+				"prototype"
+			],
+			[
+				"Chil",
+				"ChildBrowser"
+			],
+			[
+				"ch",
+				"childBrowser"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"conf",
+				"confLogin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/osp/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 13148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 1388,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4773,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sear",
+				"Stackoverflow: Search from Input"
+			],
+			[
+				"sta",
+				"Stackoverflow: Search Selection"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 118.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/osp/code/spencer/soberstadt.github.com/js/main.js",
+		"/Users/osp/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/assets/www/index.html",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/assets/www/childbrowser.js",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/src/org/mpdx/Main.java",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/res/xml/config.xml",
+		"/Users/osp/code/mpdx-mobile/app/js/views/contactlistview.js",
+		"/Users/osp/Desktop/pg-ios2.1/PG-iOS2.1/Classes/MainViewController.m",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/src/com/phonegap/plugins/analytics/GoogleAnalyticsTracker.java",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios/www/GoogleAnalyticsPlugin.js",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/assets/www/analytics.js",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/assets/www/device.js",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios/www/device.js",
+		"/Users/osp/code/mpdx-mobile/app/js/config.js",
+		"/Users/osp/code/mpdx-mobile/app/js/utils.js",
+		"/Users/osp/code/mpdx-mobile/app/lib/backbone.localStorage.relational.js",
+		"/Users/osp/code/mpdx-mobile/app/lib/backbone.js",
+		"/Users/osp/code/mpdx-mobile/app/lib/backbone.localStorage.js",
+		"/Users/osp/code/mpdx-mobile/app/js/main.js",
+		"/Users/osp/code/mpdx-mobile/cp_script.sh",
+		"/Users/osp/code/mpdx-mobile/app/js/jqm-config.js",
+		"/Users/osp/code/mpdx-mobile/app/tpl/login-page.html",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/assets/www/cordova-1.8.1.js",
+		"/Users/osp/code/mpdx-mobile/app/tpl/partials.js",
+		"/Users/osp/code/mpdx-mobile/app/js/views/tasksview.js",
+		"/Users/osp/code/mpdx-mobile/app/js/syncing.js",
+		"/Users/osp/code/mpdx-mobile/app/js/views/loginview.js",
+		"/Users/osp/code/mpdx-mobile/app/js/views/editcontactview.js",
+		"/Users/osp/code/mpdx-mobile/app/js/views/edittaskview.js",
+		"/Users/osp/code/mpdx-mobile/app/js/views/contactview.js",
+		"/Users/osp/code/mpdx-mobile/app/tpl/contact-page.html",
+		"/Users/osp/code/mpdx-mobile/app/css/styles.css",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios/MPDX.xcodeproj/project.pbxproj",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios-2/www/ChildBrowser.js",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios-2/www/device.js",
+		"/Users/osp/code/mpdx-mobile/.gitignore",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/res/xml/plugins.xml",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/res/xml/cordova.xml",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios-2/cp_script.sh",
+		"/Users/osp/code/mpdx-mobile/mpdx-ios/mpdx-ios/Cordova.plist",
+		"/Users/osp/Downloads/phonegap-phonegap-ff91e6e/VERSION",
+		"/Users/osp/Downloads/phonegap-phonegap-2dbbdab/lib/android/bin/create",
+		"/Users/osp/code/mpdx-mobile/mpdx-android/src/com/phonegap/plugins/childBrowser/ChildBrowser.java",
+		"/Users/osp/code/mpdx-mobile/app/.project"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"val",
+			"select",
+			"clear",
+			"	",
+			"contacts",
+			"hash",
+			"this.hash",
+			"cal",
+			"\n            th",
+			"find",
+			"sync",
+			"()\")\n",
+			"sync",
+			"fet",
+			"fetch",
+			"        \n",
+			"...\")",
+			")\n",
+			"tracking",
+			"  		\n",
+			"  	\n",
+			"syncServer",
+			"forCon",
+			"\n        delete dataChanges.due_date\n        task.changed = dataCha",
+			"\n      ",
+			"\n    i",
+			"      console.log(\"login navigate trigger \" + location.hash)\n",
+			"        \n",
+			"console",
+			"        \n",
+			"    \n",
+			";",
+			"consol",
+			"conso",
+			"checkC",
+			"mpdx-ios",
+			"addSyncFunctions",
+			"this",
+			"'t add more stuff down here other than more templates. Any start-up \n  * actions could be places in the Rounter's initialize function.\n  */",
+			"\n  //app.networkStateChange()",
+			"online",
+			"startSync",
+			"\n    'offline' : 'formOffline'",
+			"\n    // if(this.confLogin() && this.outOfSync && !this.syncing && config.autoSync !== false) {\n      // this.startSync()\n    // }",
+			"lement(\"iframe\")\n    iframe.id = \"loginFrame\"\n    iframe.src = window.config.loginServer + \"?client_id=\" + secure.client_id + \"&redirect_uri=\" + redirect\n    //iframe.src = document.location.href\n    iframe.width = \"100%\"\n    iframe.height = \"500\"\n    $('div[data-role=\"content\"]').append(iframe)\n    $('#loginFrame').on('load', loginIFrameLoad)\n    $('#loginFrame').on('error', loginIFrameLoad)\n    \n    var that = this\n    function loginIFrameLoad(event) {\n      console.log(\"iframeLoad/Error\")\n      try {\n        var search = event.target.contentWindow.location.search.substring(1)\n        that.parseResp(search)\n        $(event.target).remove()\n      }\n      catch (e) { }\n    }*/",
+			"showIFrameLogin"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/osp/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 13148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 1388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1380,
+								1380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 699.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/main.js",
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3486,
+								3486
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 656.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"main",
+				"app/js/main.js"
+			],
+			[
+				"task",
+				"app/js/views/tasksview.js"
+			],
+			[
+				"contat",
+				"app/js/models/contactmodel.js"
+			],
+			[
+				"tasks",
+				"app/js/views/tasksview.js"
+			],
+			[
+				"contact",
+				"mpdx-ios/www/app/js/models/contactmodel.js"
+			],
+			[
+				"syn",
+				"app/js/syncing.js"
+			],
+			[
+				"contac",
+				"app/js/views/contactlistview.js"
+			],
+			[
+				"edit",
+				"app/js/views/editcontactview.js"
+			],
+			[
+				"par",
+				"app/tpl/partials.js"
+			],
+			[
+				"conta",
+				"app/js/views/contactlistview.js"
+			],
+			[
+				"cont",
+				"app/tpl/contacts-page.html"
+			],
+			[
+				"device",
+				"mpdx-android/assets/www/device.js"
+			],
+			[
+				"dec",
+				"mpdx-ios/www/device.js"
+			],
+			[
+				"li",
+				"app/lib/light-backbone-relations-localstore.js"
+			],
+			[
+				"pers",
+				"app/js/models/personmodel.js"
+			],
+			[
+				"back",
+				"app/lib/backbone.localStorage.relational.js"
+			],
+			[
+				"",
+				"app/lib/backbone.localStorage.js"
+			],
+			[
+				"bac",
+				"app/lib/backbone.js"
+			],
+			[
+				"m",
+				"app/js/main.js"
+			],
+			[
+				"tasksv",
+				"app/js/views/tasksview.js"
+			],
+			[
+				"sy",
+				"app/js/syncing.js"
+			],
+			[
+				"an",
+				"mpdx-android/src/com/phonegap/plugins/analytics/GoogleAnalyticsTracker.java"
+			],
+			[
+				"goo",
+				"mpdx-ios/www/GoogleAnalyticsPlugin.js"
+			],
+			[
+				"ana",
+				"mpdx-android/assets/www/analytics.js"
+			],
+			[
+				"analyics",
+				"mpdx-android/src/com/phonegap/plugins/analytics/GoogleAnalyticsTracker.java"
+			],
+			[
+				"config.xml",
+				"mpdx-android/res/xml/config.xml"
+			],
+			[
+				"jq",
+				"app/js/jqm-config.js"
+			],
+			[
+				"ut",
+				"app/js/utils.js"
+			],
+			[
+				"dev",
+				"mpdx-ios/www/device.js"
+			],
+			[
+				"con",
+				"app/js/config.js"
+			],
+			[
+				"ma",
+				"app/js/main.js"
+			],
+			[
+				"devic",
+				"mpdx-ios/www/device.js"
+			],
+			[
+				"sty",
+				"app/css/styles.css"
+			],
+			[
+				"editco",
+				"app/js/views/editcontactview.js"
+			],
+			[
+				"st",
+				"app/css/styles.css"
+			],
+			[
+				"contacts",
+				"app/tpl/contacts-page.html"
+			],
+			[
+				"part",
+				"app/tpl/partials.js"
+			],
+			[
+				"log",
+				"app/js/views/loginview.js"
+			],
+			[
+				"s",
+				"app/js/syncing.js"
+			],
+			[
+				"editt",
+				"app/js/views/edittaskview.js"
+			],
+			[
+				"proj",
+				"mpdx-ios/MPDX.xcodeproj/project.pbxproj"
+			],
+			[
+				"ind",
+				"app/index.html"
+			],
+			[
+				"confi",
+				"app/js/config.js"
+			],
+			[
+				"login",
+				"app/js/views/loginview.js"
+			],
+			[
+				"ddevie",
+				"mpdx-android/assets/www/device.js"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"de",
+				"mpdx-android/assets/www/device.js"
+			],
+			[
+				"deve",
+				"mpdx-ios/www/device.js"
+			],
+			[
+				"java",
+				"mpdx-android/src/org/mpdx/Main.java"
+			],
+			[
+				"index.htm",
+				"mpdx-android/assets/www/index.html"
+			],
+			[
+				"lo",
+				"app/js/views/loginview.js"
+			],
+			[
+				"child",
+				"mpdx-android/assets/www/childbrowser.js"
+			],
+			[
+				"logi",
+				"app/js/views/loginview.js"
+			],
+			[
+				"childe",
+				"mpdx-ios-2/www/ChildBrowser.js"
+			],
+			[
+				".plist",
+				"mpdx-ios/mpdx-ios/Cordova.plist"
+			],
+			[
+				"cord",
+				"mpdx-android/res/xml/cordova.xml"
+			],
+			[
+				"plu",
+				"mpdx-android/res/xml/plugins.xml"
+			],
+			[
+				".htm",
+				"tpl/contact-page.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
