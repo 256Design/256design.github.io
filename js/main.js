@@ -41,6 +41,7 @@ $(document).ready(function(){
       _gaq.push(['_trackEvent', 'portfolio', 'show', this.href])
     },
     afterClose : function() {
+      if(!justStarting)
         location.hash = "portfolio"
     }
   })
@@ -53,7 +54,9 @@ $(document).ready(function(){
   // reopen project on refresh or redirect
   if(window.location.hash) {
     var toOpen = location.hash
+    window.justStarting = true
     $("a[href='"+toOpen+"']").click()
     $("a[href='"+toOpen+"']").click()
+    delete justStarting
   }
 })
