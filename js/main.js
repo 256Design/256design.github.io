@@ -41,7 +41,7 @@ $(document).ready(function(){
       _gaq.push(['_trackEvent', 'portfolio', 'show', this.href])
     },
     afterClose : function() {
-      if(!justStarting)
+      if(!window.justStarting)
         location.hash = "portfolio"
     }
   })
