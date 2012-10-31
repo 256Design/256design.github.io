@@ -59,4 +59,8 @@ $(document).ready(function(){
     $("a[href='"+toOpen+"']").click()
     delete justStarting
   }
+
+  $('.email_me').click(function () {
+    window.location = "mailto:so" + "berstadt" + "@gm" + "ail.com"
+  })
 })

@@ -119,6 +119,7 @@ article {
   article .more_link {
     text-align: right;
     text-decoration: underline;
+    color: #0099CC;
   }
 
 .project_large, .project_large .more_info {
