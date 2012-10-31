@@ -8,12 +8,13 @@ body {
 
 h1 {
   font-size: 80px;
-  line-height: 60px;
+  line-height: 65px;
 }
 
 h1 .line2 {
   display: block;
   font-size: 45px;
+  margin: 23px 0 -10px;
   color: #0099CB;
 }
 
@@ -44,6 +45,10 @@ a:visited {
 
 .clear_hr {
   clear: both;
+}
+
+header {
+  margin-bottom: 15px;
 }
 
 .contact_me_body a {
@@ -118,11 +123,6 @@ article {
 
 .project_large, .project_large .more_info {
   width: 750px;
-}
-
-.project_large {
-  max-height: 750px;
-  overflow: scroll;
 }
 
   .project_large .sub-title {

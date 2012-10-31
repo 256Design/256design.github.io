@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>256Design - portfolio for Spencer Oberstadt</title>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="pics/logo.ico">
     <link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
     <link rel='stylesheet' href='css/reset.css'>
     <link rel='stylesheet' href='css/960.css'>
@@ -11,12 +12,12 @@
   </head>
   <body>
     <div class="container_12" id="main_body">
-      <div class="container_12" class="header">
+      <header class="container_12">
         <img src="pics/logo.png" id="logo" class="grid_3" />
         <h1 class="grid_9"><span class="line1">256 Design</span>
         <span class="line2">Portfolio For</span>
         <span class="line3">Spencer Oberstadt</span></h1>
-      </div>
+      </header>
 
       <div class="container_12">
         <div class="grid_4">
@@ -65,7 +66,7 @@
           <label for="design_filter_cb">Design</label> 
         </div>
       </div>
-
+      <hr id="portfolio">
       <article class="grid_4" type="development" coolness="10" open="true" id="p1">
         <a href="#p1large" class="fancybox wrapper">
           <img src="pics/port/mpdx-mobile-small.jpg">
@@ -77,19 +78,19 @@
         </a>
       </article>
 
-      <article class="grid_4" type="development" coolness="9">
-        <a href="#p2large" class="fancybox wrapper">
+      <article class="grid_4" type="development" coolness="8">
+        <a href="#progTransp" class="fancybox wrapper">
           <img src="pics/port/pt-small.jpg">
           <h5>Project Tansparency</h5>
-          <span class="date">September 2011 - March 2012</span>
-          <span class="coolness">Coolness: 9</span>
+          <span class="date">September 2011 - Present</span>
+          <span class="coolness">Coolness: 8</span>
           <span class="main_tech">Main Technology: Java for Android</span>
           <span class="more_link">Click Again To See More</span>
         </a>
       </article>
 
       <article class="grid_4" type="design" coolness="5">
-        <a href="#p2large" class="fancybox wrapper">
+        <a href="#ARProject" class="fancybox wrapper">
           <img src="pics/port/ar-small.jpg">
           <h5>Mobile Enviornment Detection</h5>
           <span class="date">November 2011</span>
@@ -99,11 +100,11 @@
       </article>
 
       <article class="grid_4" type="development" coolness="6">
-        <a href="#p2large" class="fancybox wrapper">
+        <a href="#autismProject" class="fancybox wrapper">
           <img src="pics/port/autism-small.jpg">
           <h5>Data Entry App for Autism Therapy</h5>
           <span class="date">July 2011 - November 2011</span>
-          <span class="coolness">Coolness: 6</span>
+          <span class="coolness">Coolness: 8</span>
           <span class="main_tech">Main Technology: Adobe Flex</span>
           <span class="more_link">Click Again To See More</span>
         </a>
@@ -124,20 +125,20 @@
         financial support. My role was leading the mobile apps team where I 
         worked with another member to train him in javascript development and 
         project management. We built the apps using Phonegap and are currently 
-        targetting Android and iOS devices with offline applications and is 
-        accessable via the web. We chose PhoneGap because we wanted be able to 
-        have a fast start-up time and target every and any smart phone.</p>
+        targeting Android and iOS devices with offline applications and is also
+        accessible via the web. We chose PhoneGap because we wanted a fast 
+        start-up time and the oppertunity to target any smart phone.</p>
       <p>During the first week of the project, we worked to explore dynamic view
         (HTML page) creation techniques and other tools we would need to develop
         for a PhoneGap application. To help streamline development and expansion, 
-        after about a week of developement, we looked into Javascript MVC 
+        after about a week of development, we looked into Javascript MVC 
         (<a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank">more info</a>) 
-        frameworks and descided on using Backbone.js. After getting the hang of 
+        frameworks and decided on using Backbone.js. After getting the hang of 
         Backbone.js, we were cooking with gas and had a published app on the Play
         Store after about 2.5 months, with the last month me working solo.</p>
       <p>The app is currently available on the 
         <a href="https://play.google.com/store/apps/details?id=org.mpdx" target="_blank">Android Play Store</a> 
-        and the <a href="https://itunes.apple.com/us/app/mpdx/id571838934" target="_blank">Apple App Store soon!</a>
+        and the <a href="https://itunes.apple.com/us/app/mpdx/id571838934" target="_blank">Apple App Store</a>!
       </p>
       <div class="container_12 more_info">
         <div class="tags grid_3">
@@ -172,6 +173,108 @@
       </div>
     </div>
 
+    <div style="display:none" id="progTransp" class="project_large">
+      <h2>Project Transparency</h2>
+      <h3 class="sub-title">Accountability Utility</h3>
+      <p>Project Transparency was built with the vision of sharing daily updates 
+        how you are doing to your accountability partners. I built the 
+        application with Java for Android and have hopes of supporting other
+        platforms as well. For a back end, php was the weapon of choice connected
+        to a MySQL server.</p>
+      <p>All of the code for Project Transparency is availalbe on GitHub. Check 
+        out the <a href="https://github.com/256Design/Project-Transperancy" target="_blank">Android Code</a> 
+        and the <a href="https://github.com/256Design/PT-Server" target="_blank">Server Side</a>.
+      <p><a href="https://play.google.com/store/apps/details?id=com.twofivesix.pt" target="_blank">Available on the Google Play Store</a></p>
+      <div class="container_12 more_info">
+        <div class="tags grid_3">
+          <h4>Tags</h4>
+          <ul>
+            <li>Java</li>
+            <li>Android</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>JSON</li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h4>Time Frame</h4>
+          <p>September 2011 - Present</p>
+        </div>
+        <div class="grid_3">
+          <h4>Coolness</h4>
+          <p>8</p>
+        </div>
+      </div> 
+    </div>
+
+    <div style="display:none" id="ARProject" class="project_large">
+      <h2>Mobile Enviornment Detection</h2>
+      <img src="pics/port/fattDesign.jpg">
+      <p>As many medical conditions can inhibit cognitive abilities, the Mobile 
+        Environment Detection project was designed to help people who struggle in
+        new environments turn that space into a learning atmosphere. In different 
+        locations, facilitators could "capture" items or locations in the space 
+        and provide descriptions on whenever was relevant. My role on the project 
+        was to do the interface design and begin the groundwork for implementing 
+        an Augmented Reality engine.</p>
+      <div class="container_12 more_info">
+        <div class="tags grid_3">
+          <h4>Tags</h4>
+          <ul>
+            <li>Flex</li>
+            <li>Adobe AIR Mobile</li>
+            <li>UI Design</li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h4>Client</h4>
+          <p>University of Wisconsin - Stevens Point</p>
+        </dv>
+        <div class="grid_3">
+          <h4>Time Frame</h4>
+          <p>November 2011 - December 2011</p>
+        </div>
+        <div class="grid_3">
+          <h4>Coolness</h4>
+          <p>5</p>
+        </div>
+      </div> 
+    </div>
+
+    <div style="display:none" id="autismProject" class="project_large">
+      <h2>Smart Data Entry App for Autism Therapy</h2>
+      <img src="pics/port/dataEntryApp.jpg">
+      <p>Extensive records are common in home therapy for a child with autism. Line therapists are given a list of assigned program items(things for the child to work on learning) and begins the process of continually practicing that item until success regularity increases. This process while providing good structure, was slow to adapt and did not allow for use of the testing data after 2 weeks. Out of these problems rose the Smart Data Entry App for Autism Therapy, where instead of having to write each time you complete a trail with the child, you can enter that into a tablet, where that data can be accessed in real time by a senior therapist and can be utilized later in therapy to show things like changes in acquisition speed.</p>
+
+      <p>This app was built as a suite of tools (Mobile Enhanced Autism Therapy) built to further different areas in the autism therapy field.</p>
+      <div class="container_12 more_info">
+        <div class="tags grid_3">
+          <h4>Tags</h4>
+          <ul>
+            <li>Java</li>
+            <li>Android</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Git</li>
+            <li>JSON</li>
+          </ul>
+        </div>
+        <div class="grid_3">
+          <h4>Client</h4>
+          <p>University of Wisconsin - Stevens Point</p>
+        </dv>
+        <div class="grid_3">
+          <h4>Time Frame</h4>
+          <p>July 2011 - November 2011</p>
+        </div>
+        <div class="grid_3">
+          <h4>Coolness</h4>
+          <p>8</p>
+        </div>
+      </div> 
+    </div>
+
     <div style="display:none" id="p2large" class="project_large">
       <h2>MPDX - Mobile</h2>
       <a href="http://fancybox.net/blog">Example Light box</a>  
@@ -180,5 +283,6 @@
     <script type="text/javascript" src="lib/jQuery.js"></script>
     <script type="text/javascript" src="lib/fancybox/jquery.fancybox.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="https://github.com/fryn/html5slider/raw/master/html5slider.js"></script>
   </body>
 </html>

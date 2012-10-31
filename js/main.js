@@ -1,43 +1,59 @@
-window.filters = {}
-
-$('article').click(function (event) {
-  if(!$(this).attr('open')) {
-    event.stopPropagation()
-    $('article').removeAttr('open')
-    $(this).attr('open','')
-  }
-})
-
 $(document).ready(function(){
+  window.filters = {}
+
+  function coolness_slider_change (event) {
+    var output = window.coolness_value = event.target.value
+    if(coolness_value == 1)
+      output = "Any"
+    else if (coolness_value == 10)
+      output = "== 10"
+    else
+      output = "> " + coolness_value
+    $('#coolness_slider_value').html(output)
+
+    refilter()
+  }
+
+  function refilter () {
+    $('article').each(function () {
+      if(parseInt($(this).attr('coolness')) < window.coolness_value ||
+        filters[$(this).attr('type')] === false)
+        $(this).hide()
+      else
+        $(this).show()
+    })
+  }
+
+  $('article').click(function (event) {
+    if(!$(this).attr('open')) {
+      event.stopPropagation()
+      event.preventDefault()
+      $('article').removeAttr('open')
+      $(this).attr('open','')
+      location.hash = "portfolio"
+      window.savedHash = $(this).find('a').attr('href')
+    }
+    else {
+      location.hash = savedHash;
+    }
+  })
+
   $(".fancybox").fancybox({
-      width: 500
+    afterClose : function() {
+        location.hash = "portfolio"
+    }
   })
 
   $('input[type="checkbox"]').change(function (event) {
     window.filters[$(this).attr("value")] = $(this).attr("checked") == "checked"
     refilter()
   })
+
+  // reopen project on refresh or redirect
+  if(window.location.hash) {
+    var toOpen = location.hash
+    $("a[href='"+toOpen+"']").click()
+    $("a[href='"+toOpen+"']").click()
+  }
+
 })
-
-function coolness_slider_change (event) {
-  var output = window.coolness_value = event.target.value
-  if(coolness_value == 1)
-    output = "Any"
-  else if (coolness_value == 10)
-    output = "== 10"
-  else
-    output = "> " + coolness_value
-  $('#coolness_slider_value').html(output)
-
-  refilter()
-}
-
-function refilter () {
-  $('article').each(function () {
-  	if(parseInt($(this).attr('coolness')) < window.coolness_value ||
-      filters[$(this).attr('type')] === false)
-      $(this).hide()
-    else
-      $(this).show()
-  })
-}
