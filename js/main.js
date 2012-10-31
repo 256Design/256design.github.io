@@ -55,5 +55,4 @@ $(document).ready(function(){
     $("a[href='"+toOpen+"']").click()
     $("a[href='"+toOpen+"']").click()
   }
-
 })
