@@ -31,14 +31,15 @@ $(document).ready(function(){
       $('article').removeAttr('open')
       $(this).attr('open','')
       location.hash = "portfolio"
-      window.savedHash = $(this).find('a').attr('href')
     }
-    else {
-      location.hash = savedHash;
-    }
+    else
+      location.hash = $(this).find('a').attr('href')
   })
 
   $(".fancybox").fancybox({
+    afterLoad : function() {
+      _gaq.push(['_trackEvent', 'portfolio', 'show', this.href])
+    },
     afterClose : function() {
         location.hash = "portfolio"
     }
