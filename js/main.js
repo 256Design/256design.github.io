@@ -1,7 +1,7 @@
 $(document).ready(function(){
   window.filters = {}
 
-  function coolness_slider_change (event) {
+  window.coolness_slider_change = function (event) {
     var output = window.coolness_value = event.target.value
     if(coolness_value == 1)
       output = "Any"
@@ -14,7 +14,7 @@ $(document).ready(function(){
     refilter()
   }
 
-  function refilter () {
+  window.refilter = function () {
     $('article').each(function () {
       if(parseInt($(this).attr('coolness')) < window.coolness_value ||
         filters[$(this).attr('type')] === false)
